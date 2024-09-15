@@ -12,7 +12,7 @@ def wgs84_to_epsg2100(latitude, longitude):
 
 # Example usage:
 latitude = 48.858844
-longitude = 2.294351
+longitude = 22.294351
 epsg2100_x, epsg2100_y = wgs84_to_epsg2100(latitude, longitude)
 
 print(f"Latitude: {latitude}, Longitude: {longitude}")
